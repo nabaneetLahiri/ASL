@@ -17,9 +17,8 @@ Upload the data set and the train.ipynb file on ur drive. Things to be noted
 - Images of J and Z should be in a folder named MotionSigns in ur drive 
 - Rest of the images should be in a folder named StationarySigns in ur drive
 - both of the above folder should contain a folder named ^ with blank background
-- Run the fle in google colab 
-<br>
--now to test
+
+####Run the fle in google colab 
 
 
 
