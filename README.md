@@ -11,12 +11,16 @@ Run create.py to create the dataset. The dataset will be created in C:\Dataset t
 Parameters given druing runtime are: 
 - Starting index, from which number the file name will start(Give 1 as default). 
 - Ending index, till which number the file name will end at.
+```python
+    conda activate asl 
+    python create.py
+ ```
 
 ## [Training](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/train.ipynb)
 Upload the data set and the train.ipynb file on ur drive. Things to be noted
 - Images of J and Z should be in a folder named MotionSigns in ur drive 
 - Rest of the images should be in a folder named StationarySigns in ur drive
-- both of the above folder should contain a folder named ^ with images of blank background
+- Both of the above folder should contain a folder named ^ with images of blank background
 
 #### Run the file in google colab 
 Two models are to be made:
@@ -25,6 +29,10 @@ Two models are to be made:
 
 ## [Hand Sign Detection](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/Run.py)
 Download the models from ur drive and put in the same folder with run.py. 
+```python
+    conda activate asl 
+    python run.py
+ ```
 The pretrained models are given here 
 [keras.MotionModel](https://drive.google.com/file/d/1-iP2KnLVodcp8TqokZjS5NMQnB2x2Eey/view?usp=sharing), 
 [keras.StationaryModel](https://drive.google.com/file/d/1i9SeORCZlnsBfNzWy_TIGNwuc-6Ni5zA/view?usp=sharing).  
