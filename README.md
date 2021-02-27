@@ -1,6 +1,7 @@
 # American-Sign-Languge-Recognition
-<h2>Prerequiste<h2>
-Anaconda ![Anaconda](https://www.anaconda.com/)
+##Prerequiste<h2>
+Anaconda 
+![Anaconda](https://www.anaconda.com/)
 Use the requirement text file to install required libraries
 ```conda create --name <env> --file <this file>```
 
