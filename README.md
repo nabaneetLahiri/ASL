@@ -24,17 +24,16 @@ Two models are to be made:
 - Second model is for motion signs ![step2](https://user-images.githubusercontent.com/42116611/109387218-1bf9b580-7926-11eb-98e5-2922cf331359.PNG) change the name of the model to keras.MotionModel
 
 ## [Hand Sign Detection](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/Run.py)
+Download the models from ur drive and put in the same folder with run.py
+[keras.MotionModel](https://drive.google.com/file/d/1-iP2KnLVodcp8TqokZjS5NMQnB2x2Eey/view?usp=sharing)
+[keras.StationaryModel](https://drive.google.com/file/d/1i9SeORCZlnsBfNzWy_TIGNwuc-6Ni5zA/view?usp=sharing)
 Run the run.py file put ur hand in the box provided and the sign will be detected
 ![a](https://user-images.githubusercontent.com/42116611/109385459-07172500-791a-11eb-9d77-a1ded088efa2.PNG)
 press space bar for space, backspace to delete a char and enter to read the sentence out loud
 
-
-
-
-
-
-
+<!--
 ## Results
 ![a](https://user-images.githubusercontent.com/42116611/109385459-07172500-791a-11eb-9d77-a1ded088efa2.PNG)
 ![b](https://user-images.githubusercontent.com/42116611/109385460-08e0e880-791a-11eb-8983-9db971849ef1.PNG)
 ![c](https://user-images.githubusercontent.com/42116611/109385461-09797f00-791a-11eb-9ef7-f9aa0872f2f7.PNG)
+-->
