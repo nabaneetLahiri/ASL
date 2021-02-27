@@ -2,9 +2,11 @@ import cv2                #importing opencv module
 import numpy as np		 #importing numpy module and abbreviating it as np
 import os				# importing os module
 
-cam=int(input("Enter Camera Index : ")) # defining a variable cam which takes an integer value , that value is the camera index or number corresponding to the camera which is to be used for video capturing
+#cam=int(input("Enter Camera Index : ")) # defining a variable cam which takes an integer value , that value is the camera index or number corresponding to the camera which is to be used for video capturing
+cam=0
 cap=cv2.VideoCapture(cam)  # VideoCapture is used for opening camera and capturing video and it returns a video object which is stored in variable cap
-i=ord(input("Enter Character : "))	# 65 here references ASCII values
+#i=ord(input("Enter Character : "))	# 65 here references ASCII values
+i=65
 j=int(input("Enter Starting Index : "))     # variable which keeps count of snaps/pics taken
 name=""
 limit=int(input("Enter Ending Index : "))   # maximum number of snaps/pics to be taken
