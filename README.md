@@ -1,4 +1,6 @@
 # American-Sign-Languge-Recognition
+![asl_demo](https://user-images.githubusercontent.com/42116611/109388110-1783cb80-792b-11eb-9dc9-1c477136e245.gif)
+
 ## Prerequisite
 - [Anaconda](https://www.anaconda.com/)
 - Use the [requirements.txt](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/requirements.txt) to install required libraries
