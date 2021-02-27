@@ -3,12 +3,12 @@
 <ul>
   <li>Anaconda</li> 
   <li>Use the requirement text file to install required libraries 
-    ```python
-    conda create --name <env> --file <this file>
-    ```
+   
   </li>
 </ul>
-
+ ```python
+    conda create --name <env> --file <this file>
+ ```
 
 
 
