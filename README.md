@@ -16,9 +16,19 @@ Parameters given druing runtime are:
 Upload the data set and the train.ipynb file on ur drive. Things to be noted
 - Images of J and Z should be in a folder named MotionSigns in ur drive 
 - Rest of the images should be in a folder named StationarySigns in ur drive
-- both of the above folder should contain a folder named ^ with blank background
+- both of the above folder should contain a folder named ^ with images of blank background
 
-#### Run the fle in google colab 
+#### Run the file in google colab 
+Two models are to be made:
+- First model is for the sationary signs ![step1](https://user-images.githubusercontent.com/42116611/109387193-e9e85380-7925-11eb-89d1-7644426cf2f5.PNG) change the name of model to keras.StationaryModel
+- Second model is for motion signs ![step2](https://user-images.githubusercontent.com/42116611/109387218-1bf9b580-7926-11eb-98e5-2922cf331359.PNG) change the name of the model to keras.MotionModel
+
+## [Hand Sign Detection](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/Run.py)
+Run the run.py file put ur hand in the box provided and the sign will be detected
+![a](https://user-images.githubusercontent.com/42116611/109385459-07172500-791a-11eb-9d77-a1ded088efa2.PNG)
+press space bar for space, backspace to delete a char and enter to read the sentence out loud
+
+
 
 
 
