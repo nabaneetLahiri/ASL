@@ -3,7 +3,7 @@
 <ul>
   <li>Anaconda https://www.anaconda.com/</li>
   <li>Use the requirement text file to install required libraries </li>
-  '''conda create --name <env> --file <this file>'''
+  <p>'''conda create --name <env> --file <this file>'''</p>
 </ul>
 
 
