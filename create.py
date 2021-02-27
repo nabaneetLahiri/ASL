@@ -2,6 +2,7 @@ import cv2                #importing opencv module
 import numpy as np		 #importing numpy module and abbreviating it as np
 import os				# importing os module
 
+path="C:\\Dataset\\"  	#change path where you want to save files
 #cam=int(input("Enter Camera Index : ")) # defining a variable cam which takes an integer value , that value is the camera index or number corresponding to the camera which is to be used for video capturing
 cam=0
 cap=cv2.VideoCapture(cam)  # VideoCapture is used for opening camera and capturing video and it returns a video object which is stored in variable cap
@@ -21,7 +22,6 @@ while(cap.isOpened()):  # cap.isOpened returns true if video capturing has been 
 	imgCrop=img[y:y+h,x:x+w] # stores cropped image of hand
 	cv2.imshow('Video',img) #  display camera input in a window
 	cv2.imshow('imgCrop',imgCrop) # display cropped image of hand in a window
-	path="C:\\Dataset\\"  	#change path where you want to save files
 	k = 0xFF & cv2.waitKey(10)  # waits 10ms to capture the image of hand
 
 	if k == 27:                # 27 ASCII value corresponds to escape value which upon depressing breaks out of loop
