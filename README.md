@@ -1,23 +1,11 @@
 # American-Sign-Languge-Recognition
 ## Prerequiste
-<ul>
-  <li>Anaconda</li> 
-  <li>Use the requirement text file to install required libraries 
-   
-  </li>
-</ul>
+- [mypy tracker](https://github.com/python/mypy/issues)
+  for mypy 
  ```python
     conda create --name <env> --file <this file>
  ```
- ```python
-from typing import Iterator
 
-def fib(n: int) -> Iterator[int]:
-    a, b = 0, 1
-    while a < n:
-        yield a
-        a, b = b, a + b
-```
 
 
 
