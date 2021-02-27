@@ -1,6 +1,10 @@
 # American-Sign-Languge-Recognition
-<h2>Prerequiste
-  hello
+<h2>Prerequiste<h2>
+<ul>
+  <li>Anaconda https://www.anaconda.com/</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
 
 
 
