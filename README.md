@@ -1,5 +1,5 @@
 # American-Sign-Languge-Recognition
-##Prerequiste<h2>
+## Prerequiste<h2>
 Anaconda 
 ![Anaconda](https://www.anaconda.com/)
 Use the requirement text file to install required libraries
