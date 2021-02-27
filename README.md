@@ -26,8 +26,8 @@ Two models are to be made:
 ## [Hand Sign Detection](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/Run.py)
 Download the models from ur drive and put in the same folder with run.py. 
 The pretrained models are given here:
--[keras.MotionModel](https://drive.google.com/file/d/1-iP2KnLVodcp8TqokZjS5NMQnB2x2Eey/view?usp=sharing)
--[keras.StationaryModel](https://drive.google.com/file/d/1i9SeORCZlnsBfNzWy_TIGNwuc-6Ni5zA/view?usp=sharing)
+- [keras.MotionModel](https://drive.google.com/file/d/1-iP2KnLVodcp8TqokZjS5NMQnB2x2Eey/view?usp=sharing)
+- [keras.StationaryModel](https://drive.google.com/file/d/1i9SeORCZlnsBfNzWy_TIGNwuc-6Ni5zA/view?usp=sharing)
 -
 Run the run.py file put ur hand in the box provided and the sign will be detected
 ![a](https://user-images.githubusercontent.com/42116611/109385459-07172500-791a-11eb-9d77-a1ded088efa2.PNG)
