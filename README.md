@@ -2,7 +2,8 @@
 <h2>Prerequiste<h2>
 <ul>
   <li>Anaconda https://www.anaconda.com/</li>
-  <li>Use the requirement text file to install required libraries <b>conda create --name <env> --file <this file><b></li>
+  <li>Use the requirement text file to install required libraries </li>
+  '''conda create --name <env> --file <this file>'''
 </ul>
 
 
