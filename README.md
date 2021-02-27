@@ -4,7 +4,7 @@
   <li>Anaconda</li> 
   <li>Use the requirement text file to install required libraries `</li>
 </ul>
-```conda create --name <env> --file <this file>``
+```conda create --name <env> --file <this file>```
 
 
 
