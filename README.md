@@ -1,7 +1,7 @@
 # American-Sign-Languge-Recognition
 ## Prerequiste
-- [mypy tracker](https://github.com/python/mypy/issues)
-  for mypy 
+- [Anaconda](https://www.anaconda.com/)
+- Use the requirement.txt to install required libraries
  ```python
     conda create --name <env> --file <this file>
  ```
