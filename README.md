@@ -1,9 +1,9 @@
 # American-Sign-Languge-Recognition
 ## Prerequiste
 - [Anaconda](https://www.anaconda.com/)
-- Use the requirement.txt to install required libraries
+- Use the [requirements.txt](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/requirements.txt) to install required libraries
  ```python
-    conda create --name <env> --file <this file>
+    conda create --name <env> --file requirements.txt
  ```
 
 
