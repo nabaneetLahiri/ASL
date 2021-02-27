@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 import tensorflow as tf
-from keras.models import load_model
+#from keras.models import load_model
+from tensorflow.keras.models import load_model
 import win32com.client as wincl
 speak = wincl.Dispatch("SAPI.SpVoice")
 model1 = load_model('keras.StationaryModel')
@@ -30,7 +31,8 @@ class Target:
         kernel = np.ones((5,5),np.uint8)
         frame5 = cv2.dilate(frame4,kernel,iterations=4)
         # find contours on thresholded image
-        nada,contours,nada = cv2.findContours(frame5.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+        #nada,contours,nada = cv2.findContours(frame5.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+        contours,nada = cv2.findContours(frame5.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
         # make coutour frame
         frame6 = frame0.copy()
         # target contours
