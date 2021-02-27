@@ -1,11 +1,10 @@
 # American-Sign-Languge-Recognition
 <h2>Prerequiste<h2>
 <ul>
-  <li>Anaconda https://www.anaconda.com/</li>
+  <li>Anaconda ![Anaconda](https://www.anaconda.com/)</li>
   <li>Use the requirement text file to install required libraries </li>
-  <p>'''conda create --name <env> --file <this file>'''</p>
 </ul>
-
+'''conda create --name <env> --file <this file>'''
 
 
 
