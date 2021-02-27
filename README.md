@@ -18,7 +18,7 @@ Upload the data set and the train.ipynb file on ur drive. Things to be noted
 - Rest of the images should be in a folder named StationarySigns in ur drive
 - both of the above folder should contain a folder named ^ with blank background
 
-####Run the fle in google colab 
+#### Run the fle in google colab 
 
 
 
