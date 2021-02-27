@@ -5,7 +5,12 @@
  ```python
     conda create --name asl --file requirements.txt
  ```
-
+ ## [Creating data set](https://github.com/nabaneetLahiri/American-Sign-Languge-Recognition/blob/main/create.py)
+Run create.py to create the dataset.
+Parameters given druing runtime are: 
+- Starting index, from which number the file name will start(Give 1 as default). 
+- Ending index, till which number the file name will end at.
+The dataset will be created in C:\Dataset to change path varibale in line 5 accordingly
 
 
 
